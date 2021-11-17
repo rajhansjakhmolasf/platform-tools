@@ -11,7 +11,7 @@ folder. ["RuntimeManagerDetails.csv", "APIManagerDetails.csv", "UserDetails.csv"
 If operator doesn't have permission in any particular environment then its skipped.
 
 ```
-vsharma-ltm1:Utils vikas.sharma$ python PlatformUtils.py --u "username" --p "password" -- o "org_id" 
+vsharma-ltm1:Utils vikas.sharma$ python PlatformUtils.py --u "username" --p "password" --o "org_id" 
 INFO:root:Organization Data Inititializing..
 
 INFO:root:Environment List for Organization ************************* : [Development,QA,Training,Production,UAT] 
